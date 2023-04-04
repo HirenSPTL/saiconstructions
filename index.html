@@ -540,44 +540,7 @@
      })
        </script>
     
-    <script>
-    $(document).ready(function(){
-
-     $(".card").mouseover(function(){
-      $(this).find(".whiteBgImage").addClass("hide");
-      $(this).find(".yellowBgImage").removeClass("hide");
-     });
-    $(".card").mouseout(function(){
-      $(this).find(".whiteBgImage").removeClass("hide");
-      $(this).find(".yellowBgImage").addClass("hide");
-     });
-
-     $("#allProj").click(function(){
-        $(".constructionProjects").fadeIn(0);
-        $(".architechtureProjects").fadeIn(0);
-        $(".interiorProjects").fadeIn(0);
-        $(".allProjects").fadeIn(0);
-     })
-     $("#constProj").click(function(){
-        $(".constructionProjects").fadeIn(0);
-        $(".architechtureProjects").fadeOut(0);
-        $(".interiorProjects").fadeOut(0);
-        $(".allProjects").fadeOut(0);
-     })
-     $("#archiProj").click(function(){
-        $(".constructionProjects").fadeOut(0);
-        $(".architechtureProjects").fadeIn(0);
-        $(".interiorProjects").fadeOut(0);
-        $(".allProjects").fadeOut(0);
-     })
-     $("#interiorProj").click(function(){
-        $(".constructionProjects").fadeOut(0);
-        $(".architechtureProjects").fadeOut(0);
-        $(".interiorProjects").fadeIn(0);
-        $(".allProjects").fadeOut(0);
-     })
-    });
-    </script>
+    <script src="active-class-script.js"></script>
 
   </body>
 </html>
