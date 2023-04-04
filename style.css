@@ -147,6 +147,10 @@ input[type="search"]{
 	display: flex;
 }
 
+.service_div img.bigImage{
+	width:100%;
+}
+
 
 .serviceList{
 	padding:40px;
@@ -163,6 +167,7 @@ input[type="search"]{
 
 .serviceList .serviceDetail{
 	padding-left:25px;
+	padding-top: 10px;
 }
 
 .serviceList .serviceSectionSpacing{
