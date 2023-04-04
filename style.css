@@ -88,6 +88,7 @@ input[type="search"]{
 	border-radius: 30px;
 	display: inline-block;
     margin-top:60px;
+	text-decoration: none;
 }
 
 .carousel-indicators [data-bs-target]{
