@@ -1,0 +1,458 @@
+.darkBlue{
+    background-color: #2d3e50;
+}
+
+.topOfThePage{
+	color:#fff;
+	padding:8px 0;
+}
+
+.topOfThePage img{
+	margin-right:10px;
+	width:20px
+}
+
+/* .mainMenu{
+	background-color: #fff;
+	display: flex;
+	justify-content:space-between;
+	padding:20px 0;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.mainMenu ul{
+	margin:0;
+	padding:0;
+}
+
+.mainMenu ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+.mainMenu ul li a{
+	text-decoration:none;
+	padding:10px 40px;
+	color: #000;
+	font-weight: bold;
+}
+
+.mainMenu ul li.active a{
+	color:#ffc000;
+} */
+
+li.nav-item {
+    padding: 20px 10px;
+}
+.navbar-expand-lg .navbar-collapse{
+	justify-content: end;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+	color:#ffc000;
+}
+
+input[type="search"]{
+    background-image: url("images/search-icon.png");
+    background-repeat: no-repeat;
+    border:none;
+    background-position: center;
+    padding:10px;
+    width:150px;
+}
+
+.carousel-caption{
+	top: 40%;
+}
+
+.carousel-caption h5{
+    font-size:72px;
+    font-weight: 700;
+}
+
+.carousel-caption p{
+	margin-top: 40px;
+}
+
+.carousel-caption a{
+	background-color: #ffc000;
+	color:#fff;
+	padding:15px 70px;
+	border-radius: 30px;
+	display: inline-block;
+    margin-top:60px;
+}
+
+.carousel-indicators [data-bs-target]{
+	background-color: #ffc000;
+}
+
+.cardsParentDiv{
+	display: flex;
+}
+
+.cardSection .card p.card_heading{
+	font-size: 16px;
+	font-weight: bold;
+    text-transform: uppercase;
+    padding:10px 0;
+}
+
+.cardSection .card{
+	text-align: center;
+	background-color: #2d3e50;
+	color:#fff;
+	transition: 0.4s;
+}
+
+.cardSection .card p{
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.cardSection .card img{
+	width:40%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+  transition: 0.4s;
+}
+
+.cardSection .card {
+	padding:80px 20px;
+}
+
+.cardSection .card:not(:last-child) {
+	margin-right: 20px;
+}
+
+
+
+
+.cardSection .card:hover{
+	background-color: #fff;
+	color:#000;
+	border: 1px solid #ffc000;
+}
+
+.service_div{
+	display: flex;
+}
+
+
+.serviceList{
+	padding:40px;
+}
+
+
+
+.serviceList .innerHeading{
+	font-size:16px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding:0 0 15px 0;
+}
+
+.serviceList .serviceDetail{
+	padding-left:25px;
+}
+
+.serviceList .serviceSectionSpacing{
+	padding:25px 0 0 0;
+}
+
+
+.fullWidthImage img{
+	width:100%;
+}
+
+.fullWidthImage{
+	background-image: url(images/full-width-image.jpg);
+	background-size: 100%;
+	color:#fff;
+	padding:60px 0 40px 0;
+}
+
+.dynamicNumbers p{
+    font-size: 24px;
+/*    font-weight: bold;*/
+}
+
+.dynamicNumbers h3{
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.dynamicNumbers{
+	display:flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.offeringSection p.offerInnerHeading{
+	font-size: 24px;
+}
+
+.offeringSection .offerDetails{
+	padding-left:40px;
+}
+
+.offeringSection img{
+	width:50px;
+}
+
+.offeringSection .col-lg-4{
+	padding-bottom:30px;
+}
+
+
+.filterProject ul{
+    list-style-type: none;
+    text-align: center;
+/*    padding:50px 0;*/
+}
+
+.filterProject ul li{
+    display: inline;
+}
+
+.filterProject ul li.active a{
+	color:#ffc000;
+	
+}
+
+.filterProject ul li a{
+	padding:20px 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.filterProject ul li:hover{
+	color:#ffc000;
+}
+
+
+.filterProject .projectImages{
+	display: flex;
+	justify-content: center;
+}
+
+.filterProject .projectImages div{
+    width:25%;
+}
+
+.filterProject .projectImages img{
+	width:100%;
+}
+
+
+.filterProject .projectImages div{
+	position: relative;
+}
+
+.filterProject .projectImages div div.eyeDiv img{
+	width:30px;
+	opacity: 0;
+}
+
+.filterProject .projectImages div div.eyeDiv{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.filterProject .projectImages div:hover,  .filterProject .projectImages div:hover div.eyeDiv img{
+	background-color: #ffc000;
+	opacity: 0.8;
+}
+
+
+.teamMemberInfoSection{
+	display: flex;
+	justify-content: center;
+}
+
+.teamMemberInfoSection .teamMemberInfoBox{
+	padding:40px;
+	background-color: #2d3e50;
+	width:25%;
+	margin:10px;
+	text-align: center;
+
+}
+
+.teamMemberInfoSection .teamMemberInfoBox img.teamMemberImage{
+	width:50%;
+	padding-bottom:40px;
+}
+
+.teamMemberInfoSection .teamMemberInfoBox p.teamMemberName{
+    color:#fff;
+    font-size:18px;
+    font-weight: bold;
+} 
+
+.teamMemberInfoSection .teamMemberInfoBox p.teamMemberDesignation{
+   color:#ffc000;
+   font-size:14px;
+}
+
+.teamMemberInfoSection .teamMemberInfoBox .teamMemberSocialLinks{
+	display:flex;
+	padding-top:30px;
+	justify-content: center;
+}
+
+.teamMemberInfoSection .teamMemberInfoBox .teamMemberSocialLinks img{
+	margin:5px;
+	width:50px;
+}
+
+
+/*.teamMemberInfoSection{
+	padding-top:40px;
+}*/
+
+.testimonials_fullDiv{
+	background-color: #f4f4f4;
+}
+
+.testimonials_slider{
+	background-color: #fff;
+	width: 70%;
+    padding:70px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #ecedef;
+}
+.testimonials_slider .clients_personal_info{
+	display: flex;
+	align-items: center;
+}
+
+.testimonials_slider .clients_personal_info img, .testimonials_slider img{
+    width:20% !important;
+}
+
+.testimonials_slider .clients_personal_info p.clientName{
+    color:#2e3c59;
+	font-weight:900;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.testimonials_slider .clients_personal_info p.clientDesignation{
+	color:#6c7379;
+	font-style: normal;
+}
+
+.testimonials_slider .clients_personal_info p{
+	color:#999ca1;
+}
+
+.testimonials_slider p.client_review{
+	color:#90929f;
+	font-style: italic;
+	line-height: 40px;
+
+}
+
+@media only screen and (max-width:1024px){
+	.service_div{
+		display: block;
+	}
+	.teamMemberInfoSection .teamMemberInfoBox .teamMemberSocialLinks img{
+		width:25px;
+	}
+	.filterProject ul li a{
+		padding:20px 25px;
+	}
+}
+
+@media only screen and (max-width:767px){
+	.cardsParentDiv, .service_div, .dynamicNumbers{
+		display: block;
+	}
+    .cardSection .card{
+		margin-right:0;
+		margin-top:15px
+	}
+
+	.cardSection .card:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.fullWidthImage{
+		background-size: cover;
+	}
+	.dynamicNumbers div{
+		padding:20px 0;
+	}
+
+	.offeringSection .col-lg-4{
+		padding-bottom:50px
+	}
+
+	.filterProject .projectImages{
+		display: block;
+	}
+	.filterProject .projectImages div{
+		width: 100%;
+	}
+	.filterProject ul li a{
+		padding:5px
+	}
+
+	.teamMemberInfoSection{
+		display: block;
+	}
+
+	.teamMemberInfoSection .teamMemberInfoBox{
+		width:100%;
+		margin:0;
+		margin-top:10px 
+	}
+
+	.testimonials_slider{
+		width:90%;
+		padding: 20px 40px;
+	}
+
+	.testimonials_slider .clients_personal_info p.clientDesignation, .testimonials_slider .clients_personal_info p.clientName, .testimonials_slider p.client_review{
+		font-size:15px;
+	}
+
+	.testimonials_slider p.client_review{
+		line-height:20px
+	}
+
+	.testimonials_slider .clients_personal_info img, .testimonials_slider img{
+		width:auto !important;
+	}
+
+	
+	
+}
+
+
+
+
+
+
