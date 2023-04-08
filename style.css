@@ -400,21 +400,22 @@ input[type="search"]{
 	background-color: #ffc000;
 	color:#fff;
 	border:1px solid #ffc000;
-	margin-left:-50px;
+	margin-left: -12%;
 	cursor: pointer;
 }
 
 .subscribe input[type="text"],.subscribeBtn {
     padding:15px 40px;
 	border-radius: 25px;
-	box-shadow: 0px 0px 50px 10px #f0f0f0;
+	
 }
 
 .subscribe input[type="text"]{
 	color:#0c0e37;
 	background-color: #f0f0f0;
 	border: 1px solid transparent;
-	width:300px;
+	width: 45%;
+	box-shadow: 0px 0px 50px 10px #f0f0f0;
 
 }
 
@@ -497,13 +498,16 @@ button{
 
 	.subscribe input[type="text"],.subscribeBtn {
 	padding: 5px 20px;
-	width: auto;
 	font-size:15px;
 
 	}
 
+	.subscribe input[type="text"]{
+		width:60%;
+	}
+
 	.subscribeBtn{
-		margin-left: -20px;
+		margin-left: -6%;
 	}
 	
 }
