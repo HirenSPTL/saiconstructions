@@ -245,25 +245,25 @@
       </section>
 
 
-      <section class="fullWidthImage">
+      <section class="fullWidthImage" id="counter">
         <div class="container">
-         <div class="row">
+         <div class="row" id="counter">
            <div class="dynamicNumbers">
              <div>
                <p>Completed Project</p>
-               <h3>2641</h3>
+               <h3 class="count percent" data-count="2641">0</h3>
            </div>
             <div>
                <p>Material Use</p>
-               <h3>2641</h3>
+               <h3 class="count percent" data-count="6641">0</h3>
            </div>
             <div>
                <p>Work People</p>
-               <h3>10641</h3>
+               <h3 class="count percent" data-count="10641">0</h3>
            </div>
             <div>
                <p>Happy Clients</p>
-               <h3>2434</h3>
+               <h3 class="count percent" data-count="2434">0</h3>
            </div>
          </div>
         </div>
@@ -508,6 +508,23 @@
     </section>
 
 
+    <section class="container-fluid noPaddingLeft noPaddingRight">
+      <div class="section_space">
+       <div class="singleLineHeader">
+         <div class="container">
+         <h2>Don't miss out, Stay updated </h2>
+         </div>
+       </div>
+       <div class="subscribeDiv">
+          <div class="subscribe">
+          <input type="text" placeholder="Enter your email Address">
+          <button class="subscribeBtn">SUBSCRIBE</button> 
+          </div>
+       </div>
+     </div>
+    </section>
+
+
 
      
 
@@ -520,27 +537,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-
-
-    <script>
-      var owl = $('.owl-carousel');
-       owl.owlCarousel({
-       items:1,
-       loop:true,
-       margin:10,
-       autoplay:true,
-       autoplayTimeout:5000,
-       autoplayHoverPause:true
-   });
-      $('.play').on('click',function(){
-       owl.trigger('play.owl.autoplay',[1000])
-     })
-     $('.stop').on('click',function(){
-       owl.trigger('stop.owl.autoplay')
-     })
-       </script>
-    
+    <script src="owl-script.js"></script>
     <script src="active-class-script.js"></script>
-
+    <script src="counter.js"></script>
   </body>
 </html>
